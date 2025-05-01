@@ -14,19 +14,19 @@ int main(int argc, char const *argv[])
     printf("\nDigite um segundo numero: ");
     scanf("%d", &n2);
 
-    printf("Digite um terceiro numero: ");
+    printf("\nDigite um terceiro numero: ");
     scanf("%d", &n3);
 
     if (n1 % n2 == 0 || n1 % n3 == 0){
-        printf("O numero %d e divisivel por %d e por %d",n1,n2,n3);
+        printf("\nO numero %d e divisivel por %d e por %d",n1,n2,n3);
     }else if (n1 % n2 == 0)
     {
-        printf("O numero %d e divisivel por %d",n1,n2);
+        printf("\nO numero %d e divisivel por %d",n1,n2);
     }else if (n1 % n3 == 0)
     {
-        printf("O numero %d e divisivel por %d",n1,n3);
+        printf("\nO numero %d e divisivel por %d",n1,n3);
     }else{
-        printf("O numero %d nao e divisivel por nenhum numero", n1);
+        printf("\nO numero %d nao e divisivel por nenhum numero", n1);
     }    
     return 0;
 }
