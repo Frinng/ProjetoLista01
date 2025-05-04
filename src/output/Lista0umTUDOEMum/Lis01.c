@@ -330,6 +330,56 @@ void dezaovinte(){
                 printf("Salário fixo: R$ %.2f\n", salario);
                 printf("Salário total com comissão: R$ %.2f\n", salariofinal);
             break;}
+            case 4: {
+                system("cls");
+                int nota1,nota2,nota3;
+                float media;
+
+                printf ("\nOla, Vamos calcular a sua nota nas provas!!! ");
+                printf("\nDigite sua primeira nota : ");
+                scanf("%d", &nota1);
+                printf("\nDigite sua segunda nota: ");
+                scanf("%d", &nota2);
+                printf ("\nDigite sua terceira nota: ");
+                scanf("%d", &nota3);
+                media = (nota1 + nota2 + nota3) / 3;
+                printf("Sua media nas provas foram %.2f\n", media );
+                if  (media <7) {
+                printf("\nReprovado");
+
+                }else {
+                    printf("\nAprovado");
+                }
+                break;}
+            case 5: {
+                system("cls");
+                int nota1,nota2,nota3;
+                float media;
+
+                printf ("\nOla, Vamos calcular a sua nota nas provas!!! ");
+                printf("\nDigite sua primeira nota : ");
+                scanf("%d", &nota1);
+                printf("\nDigite sua segunda nota: ");
+                scanf("%d", &nota2);
+                printf ("\nDigite sua terceira nota: ");
+                scanf("%d", &nota3);
+                media = (nota1 + nota2 + nota3)/3;
+                printf("Sua media nas provas foram %.2f", media );
+                if  (media <5) {
+                    printf("\nReprovado");
+
+
+                }else if (media > 5 && media  < 7){
+                printf("\nRecuperacao\n");
+                }
+
+                else {
+                    printf("\nAprovado\n");
+                }
+            break;}
+            case 6: {
+
+            break;}    
         }
 
     }while(escolha != 11);
