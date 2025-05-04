@@ -4,9 +4,9 @@ int main(int argc, char const *argv[])
 {
     float pesoatual,pesoantigo,pesoumporcento,calculo;
 
-    printf("================================"); 
-    printf("=======Calculador de Peso=======");
-    printf("================================"); 
+    printf("\n================================"); 
+    printf("\n=======Calculador de Peso=======");
+    printf("\n================================"); 
 
     printf("\nDigite seu Peso Atual: ");
     scanf("%f", &pesoatual);
