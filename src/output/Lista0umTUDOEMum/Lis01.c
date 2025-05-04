@@ -110,9 +110,9 @@ void dezprimeiros(){
             case 5: {
                 float salario,umporcento,aumento,aumentoporcento,salariofinal;
     
-                printf("===================================\n");
-                printf("=======Calculador de Aumento=======\n");
-                printf("===================================\n");
+                printf("\n=============================================");
+                printf("\n============Calculador de Aumento============");
+                printf("\n=============================================");
             
                 printf("\nDigite seu salario:  ");
                 scanf("%f",&salario);
@@ -126,7 +126,125 @@ void dezprimeiros(){
                 salariofinal= salario + aumentoporcento;
             
                 printf("\nSeu salario final com um aumento em %.1f e %.1f",aumentoporcento,salariofinal);
-                break;}    
+                break;} 
+            case 6: {
+                int altura,base,area;
+
+                printf("\n=============================================");
+                printf("\n====Calculado de area de Triangulos Online===");
+                printf("\n=============================================");
+            
+                printf("Digite a altura do triangulo:  ");
+                scanf("%d",&altura);
+            
+                printf("Digite a base  do triangulo:  ");
+                scanf("%d",&base);
+            
+                area= (base * altura) / 2;
+            
+            
+                printf("A area do seu triangulo com %d de alura e %d de base e %d",altura,base,area);     
+            break;}
+            case 7: {
+                char nome[60];
+                int idade;
+            
+                printf("\n=============================================");
+                printf("\n==============Bot De Boas Vindas=============");
+                printf("\n=============================================");
+            
+                printf("Digite seu nome:  ");
+                scanf("%s",nome);
+            
+                printf("Digite sua idade: ");
+                scanf("%d",&idade);
+            
+                printf("Ola %s,prazer em te conhecer!!!",nome);     
+            break;}
+            case 8:{
+                int n1,n2,n3,result;
+
+                printf("\n=============================================");
+                printf("\n==============Calculadora Online=============");
+                printf("\n=============================================");
+
+                printf("Digite um numero:  ");
+                scanf("%d",&n1);
+
+                printf("Digite um segundo numero:  ");
+                scanf("%d",&n2);
+
+                if(n1 > 0 && n2 > 0){
+                    result = pow(n1,n2);
+
+                    printf("O resultado de %d elevado  %d e %d",n1,n2,result);
+
+
+                }else{
+                        printf("OS DOIS NUMEROS DIGITADOS PRECISAM SER MAIOR QUE 0");
+                }
+            break;}
+            case 9:{
+                int idade,idadefutura,ano,anofuturo,restodeano;
+                char nome[50];
+
+
+                printf("\n=============================================");
+                printf("\n=============Advinhador de idade=============");
+                printf("\n=============================================");
+
+                printf("\n Digite seu nome: ");
+                scanf("%s",&nome);
+
+                printf("\nQual a sua idade?");
+                scanf("%d", &idade);
+
+                printf("\nDigite o ano que estamos: ");
+                scanf("%d", &ano);
+
+                printf("\nDigite o ano futuro que vc deseja ver a sua idade: ");
+                scanf("%d", &anofuturo);
+
+                restodeano = anofuturo- ano;
+                idadefutura = restodeano + idade;
+
+
+            if (idade >= 18){
+                    printf("Voce e maior de idade\n");
+                    printf("Sua idade e %d\n",idade);
+                    printf("%s,em %d,voce tera %d anos\n",nome,ano,idadefutura);
+                }else{
+                    printf("Voce e menor de idade\n");
+                    printf("Sua idade e %d\n",idade);
+                    printf("%s,em %d,voce tera %d anos\n",nome,ano,idadefutura);
+                }
+            break;}
+            case 10: {
+                float pesoatual,pesoantigo,pesoumporcento,calculo;
+
+                printf("\n============================================="); 
+                printf("\n=============Calculador de Peso==============");
+                printf("\n============================================="); 
+
+                printf("\nDigite seu Peso Atual: ");
+                scanf("%f", &pesoatual);
+
+                printf("\nDigite seu peso antigo: ");
+                scanf("%f", &pesoantigo);
+
+                if (pesoatual > pesoantigo){
+                    pesoumporcento = ((pesoatual - pesoantigo) / pesoantigo) * 100;
+                    calculo = pesoatual - pesoantigo;
+                    printf("\nVoce engordou %.1f kilos", calculo);
+                    printf("\nVoce engordou %.1f porcento",pesoumporcento);
+
+                }else{
+                    calculo = pesoantigo - pesoatual;
+                    pesoumporcento = ((pesoantigo - pesoatual) / pesoantigo) * 100;
+                    printf("\nVoce emagreceu %.1f kilos", calculo);
+                    printf("\nVoce emagreceu %.1f porcento",pesoumporcento);
+                }
+            break;}       
                 
         }
     }while(escolha != 11); 
