@@ -252,6 +252,10 @@ void dezprimeiros(){
                     printf("\nVoce emagreceu %.1f porcento\n",pesoumporcento);
                 }
             break;}
+            case 11:
+                system("cls");
+                printf("\n Saindo do Sistema\n");
+                break;
             default:
                 printf("Opcao invalida. Tente novamente.\n");
             break; 
@@ -492,7 +496,11 @@ void dezaovinte(){
                 area= raio * raio;
                 printf("Seu perimetro e: %.1f\n", perimetro);
                 printf("Sua area e: %.1f\n" ,area);
-            break;}    
+            break;}
+            case 11:
+                system("cls");
+                printf("\n Saindo do Sistema\n");
+                break;    
             default:
                 printf("Opcao invalida. Tente novamente.\n");
                 break;
