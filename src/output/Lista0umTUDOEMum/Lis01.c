@@ -285,14 +285,50 @@ void dezaovinte(){
             case 1: {
                 system("cls");
                 int number, Result;
-                printf("Vamos fazer um calculo!!!");
+                printf("\nVamos fazer um calculo!!! ");
                 printf("\nDigite um numero: ");
                 scanf("%d", &number);
 
-                Result= number+number;
+                Result = number + number;
 
-                printf("O resultado da soma desse numero e : %d", Result );
+                printf("O resultado da soma desse numero e : %d\n", Result );
 
+            break;}
+            case 2: {
+                system("cls");
+                int Dista, combus;
+                float media;
+                printf("\nOla, Vamos cacalcular o consumo medio do seu veiculo. ");
+                printf("\nDigite a distancia que seu veiculo percorreu: ");
+                scanf("%d",&Dista);
+                printf("\nDigite o combustivel que seu veiculo consumiu: ");
+                scanf("%d",&combus);
+                media = Dista / combus ;
+                printf("A media de consumo e de %f\n", media);
+            break;}
+            case 3: {
+                system("cls");
+                char nome[30];
+                float salario, vendas, comissao, salariofinal;
+
+                printf("\nOlá! Chegou a hora do dia mais feliz do mês!!!\nSiga as orientações para receber seu salário.\n");
+
+                printf("\nDigite seu nome: ");
+                scanf("%s", nome);  // Não precisa de & para strings
+
+                printf("\nDigite seu salário mensal: ");
+                scanf("%f", &salario);
+
+                printf("\nDigite seu número de vendas no mês: ");
+                scanf("%f", &vendas);
+
+                comissao = vendas * 0.15;
+                salariofinal = salario + comissao;
+
+                printf("\n--- RESUMO ---\n");
+                printf("Nome: %s\n", nome);
+                printf("Salário fixo: R$ %.2f\n", salario);
+                printf("Salário total com comissão: R$ %.2f\n", salariofinal);
             break;}
         }
 
@@ -323,7 +359,8 @@ int main(){
                     
                 break;
             case 2:
-                system("clear");
+                system("cls");
+                dezaovinte();
             
                 break;
             case 3:
@@ -340,6 +377,7 @@ int main(){
                 break;
             default:
                 printf("Opcao invalida. Tente novamente.\n");
+
                 break;    
         }   
 
