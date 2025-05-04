@@ -22,7 +22,7 @@ void dezprimeiros(){
         printf("\n9-Atividade 09.");
         printf("\n10-Atividade 10.");
         printf("\n11-Voltar.");
-        printf("Escolha uma das opcoes.\n");
+        printf("\nEscolha uma das opcoes.");
         scanf("%d", &escolha);
 
         switch (escolha){
@@ -244,8 +244,10 @@ void dezprimeiros(){
                     printf("\nVoce emagreceu %.1f kilos", calculo);
                     printf("\nVoce emagreceu %.1f porcento",pesoumporcento);
                 }
-            break;}       
-                
+            break;}
+            default:
+                printf("Opcao invalida. Tente novamente.\n");
+            break; 
         }
     }while(escolha != 11); 
 
@@ -272,7 +274,7 @@ int main(int argc, char const *argv[])
 
         switch(escolha){
             case 1:
-                system("clear");
+                system("cls");
                 dezprimeiros();
                     
                 break;
