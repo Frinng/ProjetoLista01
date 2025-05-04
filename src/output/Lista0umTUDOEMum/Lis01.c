@@ -31,7 +31,7 @@ void dezprimeiros(){
                 int numat1,numat2,resultat1;
             
                 printf("\n=============================================");
-                printf("\n=============Multiplicador Online============");
+                printf("\n=================Atividade 1=================");
                 printf("\n=============================================");
             
                 printf("\nDigite um numero:  ");
@@ -49,7 +49,7 @@ void dezprimeiros(){
                 float n1,n2,result;
     
                 printf("\n=============================================");
-                printf("\n================Divisor Online===============");
+                printf("\n=================Atividade 2=================");
                 printf("\n=============================================");
             
                 printf("\nDigite um numero:  ");
@@ -68,7 +68,7 @@ void dezprimeiros(){
                 int n1,n2,n3,n4,result;;
     
                 printf("\n=============================================");
-                printf("\n==============Calculador Online==============");
+                printf("\n=================Atividade 3=================");
                 printf("\n=============================================");
             
                 printf("\nDigite um numero:  ");
@@ -94,7 +94,7 @@ void dezprimeiros(){
                 float n1,n2,n3,result;
     
                 printf("\n=============================================");
-                printf("\n=============Calculador de Media=============");
+                printf("\n=================Atividade 4=================");
                 printf("\n=============================================");
             
                 printf("\nDigite uma nota:  ");
@@ -116,7 +116,7 @@ void dezprimeiros(){
                 float salario,umporcento,aumento,aumentoporcento,salariofinal;
 
                 printf("\n=============================================");
-                printf("\n============Calculador de Aumento============");
+                printf("\n=================Atividade 5=================");
                 printf("\n=============================================");
             
                 printf("\nDigite seu salario:  ");
@@ -137,7 +137,7 @@ void dezprimeiros(){
                 int altura,base,area;
 
                 printf("\n=============================================");
-                printf("\n====Calculado de area de Triangulos Online===");
+                printf("\n=================Atividade 6=================");
                 printf("\n=============================================");
             
                 printf("\nDigite a altura do triangulo:  ");
@@ -157,7 +157,7 @@ void dezprimeiros(){
                 int idade;
             
                 printf("\n=============================================");
-                printf("\n==============Bot De Boas Vindas=============");
+                printf("\n=================Atividade 7=================");
                 printf("\n=============================================");
             
                 printf("\nDigite seu nome:  ");
@@ -173,7 +173,7 @@ void dezprimeiros(){
                 int n1,n2,result;
 
                 printf("\n=============================================");
-                printf("\n==============Calculadora Online=============");
+                printf("\n=================Atividade 8=================");
                 printf("\n=============================================");
 
                 printf("\nDigite um numero:  ");
@@ -197,7 +197,7 @@ void dezprimeiros(){
 
 
                 printf("\n=============================================");
-                printf("\n=============Advinhador de idade=============");
+                printf("\n=================Atividade 9=================");
                 printf("\n=============================================");
 
                 printf("\n Digite seu nome: ");
@@ -231,7 +231,7 @@ void dezprimeiros(){
                 float pesoatual,pesoantigo,pesoumporcento,calculo;
 
                 printf("\n============================================="); 
-                printf("\n=============Calculador de Peso==============");
+                printf("\n================Atividade 10=================");
                 printf("\n============================================="); 
 
                 printf("\nDigite seu Peso Atual: ");
@@ -285,6 +285,12 @@ void dezaovinte(){
             case 1: {
                 system("cls");
                 int number, Result;
+
+                printf("\n============================================="); 
+                printf("\n================Atividade 11=================");
+                printf("\n============================================="); 
+
+
                 printf("\nVamos fazer um calculo!!! ");
                 printf("\nDigite um numero: ");
                 scanf("%d", &number);
@@ -298,18 +304,27 @@ void dezaovinte(){
                 system("cls");
                 int Dista, combus;
                 float media;
+
+                printf("\n============================================="); 
+                printf("\n================Atividade 12=================");
+                printf("\n============================================="); 
+
                 printf("\nOla, Vamos cacalcular o consumo medio do seu veiculo. ");
                 printf("\nDigite a distancia que seu veiculo percorreu: ");
                 scanf("%d",&Dista);
                 printf("\nDigite o combustivel que seu veiculo consumiu: ");
                 scanf("%d",&combus);
                 media = Dista / combus ;
-                printf("A media de consumo e de %f\n", media);
+                printf("A media de consumo e de %.1f\n", media);
             break;}
             case 3: {
                 system("cls");
                 char nome[30];
                 float salario, vendas, comissao, salariofinal;
+
+                printf("\n============================================="); 
+                printf("\n================Atividade 13=================");
+                printf("\n============================================="); 
 
                 printf("\nOlá! Chegou a hora do dia mais feliz do mês!!!\nSiga as orientações para receber seu salário.\n");
 
@@ -335,6 +350,10 @@ void dezaovinte(){
                 int nota1,nota2,nota3;
                 float media;
 
+                printf("\n============================================="); 
+                printf("\n================Atividade 14=================");
+                printf("\n============================================="); 
+
                 printf ("\nOla, Vamos calcular a sua nota nas provas!!! ");
                 printf("\nDigite sua primeira nota : ");
                 scanf("%d", &nota1);
@@ -345,16 +364,20 @@ void dezaovinte(){
                 media = (nota1 + nota2 + nota3) / 3;
                 printf("Sua media nas provas foram %.2f\n", media );
                 if  (media <7) {
-                printf("\nReprovado");
+                printf("\nReprovado\n");
 
                 }else {
-                    printf("\nAprovado");
+                    printf("\nAprovado\n");
                 }
                 break;}
             case 5: {
                 system("cls");
                 int nota1,nota2,nota3;
                 float media;
+
+                printf("\n============================================="); 
+                printf("\n================Atividade 15=================");
+                printf("\n============================================="); 
 
                 printf ("\nOla, Vamos calcular a sua nota nas provas!!! ");
                 printf("\nDigite sua primeira nota : ");
@@ -366,7 +389,7 @@ void dezaovinte(){
                 media = (nota1 + nota2 + nota3)/3;
                 printf("Sua media nas provas foram %.2f", media );
                 if  (media <5) {
-                    printf("\nReprovado");
+                    printf("\nReprovado\n");
 
 
                 }else if (media > 5 && media  < 7){
@@ -381,8 +404,12 @@ void dezaovinte(){
                 system("cls");
                 int num, ter;
 
-                printf("\nVamos calcular a terceira parte do numero");
-                printf("\nDigite o numero:\n ");
+                printf("\n============================================="); 
+                printf("\n================Atividade 16=================");
+                printf("\n============================================="); 
+
+                printf("\nVamos calcular a terceira parte do numero\n");
+                printf("\nDigite o numero: ");
                 scanf("%d", &num);
                 ter = num /3 ;
                 printf ("\n A terceira parte do numero e %d\n",ter);
@@ -391,22 +418,86 @@ void dezaovinte(){
                 system("cls");
                 double numero, base, resultado;
 
-                printf("Digite o numero: ");
+                printf("\n============================================="); 
+                printf("\n================Atividade 17=================");
+                printf("\n============================================="); 
+
+                printf("\nDigite o numero: ");
                 scanf("%lf", &numero);
 
-                printf("Digite a base do logaritmo: ");
+                printf("\nDigite a base do logaritmo: ");
                 scanf("%lf", &base);
 
                 if (numero > 0 && base > 0 && base != 1) {
                     resultado = log(numero) / log(base); // Mudança de base
-                    printf("Logaritmo de %.2f na base %.2f é: %.4f\n", numero, base, resultado);
+                    printf("\nLogaritmo de %.2f na base %.2f é: %.4f\n", numero, base, resultado);
                 } else {
-                    printf("Numero e base devem ser positivos e a base diferente de 1.\n");
+                    printf("\nNumero e base devem ser positivos e a base diferente de 1.\n");
                 }
-            break;}    
-        }  
+            break;}
+            case 8: {
+                system("cls");
+                int num, quadrado, raiz;
 
-    }while(escolha != 11);
+                printf("\n=============================================\n"); 
+                printf("\n================Atividade 18=================\n");
+                printf("\n=============================================\n"); 
+
+                printf("\nOla, vamos fazer um calculo!! \n");
+                printf("\n Digite um numero: ");
+                scanf("%d",&num);
+                quadrado = num*num;
+                raiz = quadrado / 2;
+                printf("\nO numero e: %d\n", num);
+                printf("\nO quadrado do numero e: %d\n" , quadrado);
+                printf("\nA raiz do numero e: %d\n", raiz);
+
+            break;}
+            case 9: {
+                system("cls");
+                float salarioMinimo, qtdQuilowatts;
+                float valorPorQuilowatt, valorTotal, valorComDesconto;
+
+                printf("\n=============================================\n"); 
+                printf("\n================Atividade 19=================\n");
+                printf("\n=============================================\n"); 
+
+                printf("\nDigite o valor do salario minimo: R$ ");
+                scanf("%f", &salarioMinimo);
+
+                printf("\nDigite a quantidade de quilowatts consumidos: ");
+                scanf("%f", &qtdQuilowatts);
+
+                valorPorQuilowatt = salarioMinimo / 7 / 100;
+                valorTotal = valorPorQuilowatt * qtdQuilowatts;
+                valorComDesconto = valorTotal * 0.9;
+
+                printf("\nValor de cada quilowatt: R$ %.2f", valorPorQuilowatt);
+                printf("\nValor total a ser pago: R$ %.2f", valorTotal);
+                printf("\nValor com 10% de desconto: R$ %.2f\n", valorComDesconto);
+
+            break;}
+            case 10: {
+                system("cls");
+                float raio, perimetro , area ;
+
+                printf("\n=============================================\n"); 
+                printf("\n================Atividade 20=================\n");
+                printf("\n=============================================\n"); 
+
+                printf("\nVamos calucular um raio de um circulo!");
+                printf("\nDigite o raio: ");
+                scanf("%f", &raio);
+                perimetro= 2 * 3.14 *raio;
+                area= raio * raio;
+                printf("Seu perimetro e: %.1f\n", perimetro);
+                printf("Sua area e: %.1f\n" ,area);
+            break;}    
+            default:
+                printf("Opcao invalida. Tente novamente.\n");
+                break;
+            }  
+}while(escolha != 11);
 }
 int main(){
     int escolha;
