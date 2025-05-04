@@ -6,27 +6,28 @@ void dezprimeiros(){
     int escolha;
 
     do{
-        printf("\n=============================================");
-        printf("\n=========As Dez primeiras atividades=========");
-        printf("\n=============================================");
+        printf("=============================================\n");
+        printf("=========As Dez primeiras atividades=========\n");
+        printf("=============================================\n");
 
-        printf("\nEscolha Quais Atividades Voce Deseja Ver: ");
-        printf("\n1-Atividade 01.");
-        printf("\n2-Atividade 02.");
-        printf("\n3-Atividade 03.");
-        printf("\n4-Atividade 04.");
-        printf("\n5-Atividade 05.");
-        printf("\n6-Atividade 06.");
-        printf("\n7-Atividade 07.");
-        printf("\n8-Atividade 08.");
-        printf("\n9-Atividade 09.");
-        printf("\n10-Atividade 10.");
-        printf("\n11-Voltar.");
-        printf("\nEscolha uma das opcoes.");
+        printf("Escolha Quais Atividades Voce Deseja Ver: \n");
+        printf("1-Atividade 01.\n");
+        printf("2-Atividade 02.\n");
+        printf("3-Atividade 03.\n");
+        printf("4-Atividade 04.\n");
+        printf("5-Atividade 05.\n");
+        printf("6-Atividade 06.\n");
+        printf("7-Atividade 07.\n");
+        printf("8-Atividade 08.\n");
+        printf("9-Atividade 09.\n");
+        printf("10-Atividade 10.\n");
+        printf("11-Voltar.\n");
+        printf("Escolha uma das opcoes.\n");
         scanf("%d", &escolha);
 
         switch (escolha){
             case 1: {
+                system("cls");
                 int numat1,numat2,resultat1;
             
                 printf("\n=============================================");
@@ -44,13 +45,14 @@ void dezprimeiros(){
                 printf("%d x %d = %d\n", numat1, numat2, resultat1);
                 break;}
             case 2: {
+                system("cls");
                 float n1,n2,result;
     
                 printf("\n=============================================");
                 printf("\n================Divisor Online===============");
                 printf("\n=============================================");
             
-                printf("Digite um numero:  ");
+                printf("\nDigite um numero:  ");
                 scanf("%f",&n1);
             
                 printf("Digite um segundo numero:  ");
@@ -62,22 +64,23 @@ void dezprimeiros(){
                 printf("%.1f dividido por %.1f = %.1f\n",n1,n2,result);
                 break;}
             case 3: {
-                int n1,n2,n3,n4,result;
+                system("cls");
+                int n1,n2,n3,n4,result;;
     
                 printf("\n=============================================");
                 printf("\n==============Calculador Online==============");
                 printf("\n=============================================");
             
-                printf("Digite um numero:  ");
+                printf("\nDigite um numero:  ");
                 scanf("%d",&n1);
             
-                printf("Digite um segundo numero:  ");
+                printf("\nDigite um segundo numero:  ");
                 scanf("%d",&n2);
             
-                printf("Digite um terceiro numero:  ");
+                printf("\nDigite um terceiro numero:  ");
                 scanf("%d",&n3);
             
-                printf("Digite um quarto numero:  ");
+                printf("\nDigite um quarto numero:  ");
                 scanf("%d",&n4);
             
             
@@ -87,29 +90,31 @@ void dezprimeiros(){
                 printf("%d + %d + %d + %d = %d\n",n1,n2,n3,n4,result);
                 break;}  
             case 4: {
+                system("cls");
                 float n1,n2,n3,result;
     
                 printf("\n=============================================");
                 printf("\n=============Calculador de Media=============");
                 printf("\n=============================================");
             
-                printf("Digite uma nota:  ");
+                printf("\nDigite uma nota:  ");
                 scanf("%f",&n1);
             
-                printf("Digite uma segunda nota:  ");
+                printf("\nDigite uma segunda nota:  ");
                 scanf("%f",&n2);
             
-                printf("Digite uma terceira nota:  ");
+                printf("\nDigite uma terceira nota:  ");
                 scanf("%f",&n3);
             
                 result= (n1+n2+n3) / 3;
             
             
-                printf("Sua Media e %.1f",result);
+                printf("Sua Media e %.1f\n",result);
                 break;}
             case 5: {
+                system("cls");
                 float salario,umporcento,aumento,aumentoporcento,salariofinal;
-    
+
                 printf("\n=============================================");
                 printf("\n============Calculador de Aumento============");
                 printf("\n=============================================");
@@ -125,27 +130,29 @@ void dezprimeiros(){
             
                 salariofinal= salario + aumentoporcento;
             
-                printf("\nSeu salario final com um aumento em %.1f e %.1f",aumentoporcento,salariofinal);
+                printf("\nSeu salario final com um aumento em %.1f e %.1f\n",aumentoporcento,salariofinal);
                 break;} 
             case 6: {
+                system("cls");
                 int altura,base,area;
 
                 printf("\n=============================================");
                 printf("\n====Calculado de area de Triangulos Online===");
                 printf("\n=============================================");
             
-                printf("Digite a altura do triangulo:  ");
+                printf("\nDigite a altura do triangulo:  ");
                 scanf("%d",&altura);
             
-                printf("Digite a base  do triangulo:  ");
+                printf("\nDigite a base  do triangulo:  ");
                 scanf("%d",&base);
             
                 area= (base * altura) / 2;
             
             
-                printf("A area do seu triangulo com %d de alura e %d de base e %d",altura,base,area);     
+                printf("\nA area do seu triangulo com %d de alura e %d de base e %d\n",altura,base,area);     
             break;}
             case 7: {
+                system("cls");
                 char nome[60];
                 int idade;
             
@@ -153,38 +160,38 @@ void dezprimeiros(){
                 printf("\n==============Bot De Boas Vindas=============");
                 printf("\n=============================================");
             
-                printf("Digite seu nome:  ");
-                scanf("%s",nome);
+                printf("\nDigite seu nome:  ");
+                scanf("%s", nome);
             
-                printf("Digite sua idade: ");
+                printf("\nDigite sua idade: ");
                 scanf("%d",&idade);
             
-                printf("Ola %s,prazer em te conhecer!!!",nome);     
+                printf("\nOla %s,prazer em te conhecer!!!\n",nome); 
             break;}
             case 8:{
-                int n1,n2,n3,result;
+                system("cls");
+                int n1,n2,result;
 
                 printf("\n=============================================");
                 printf("\n==============Calculadora Online=============");
                 printf("\n=============================================");
 
-                printf("Digite um numero:  ");
+                printf("\nDigite um numero:  ");
                 scanf("%d",&n1);
 
-                printf("Digite um segundo numero:  ");
+                printf("\nDigite um segundo numero:  ");
                 scanf("%d",&n2);
 
                 if(n1 > 0 && n2 > 0){
                     result = pow(n1,n2);
 
-                    printf("O resultado de %d elevado  %d e %d",n1,n2,result);
-
-
+                    printf("\nO resultado de %d elevado  %d e %d\n",n1,n2,result);
                 }else{
-                        printf("OS DOIS NUMEROS DIGITADOS PRECISAM SER MAIOR QUE 0");
+                        printf("\nOS DOIS NUMEROS DIGITADOS PRECISAM SER MAIOR QUE 0\n");
                 }
             break;}
             case 9:{
+                system("cls");
                 int idade,idadefutura,ano,anofuturo,restodeano;
                 char nome[50];
 
@@ -194,7 +201,7 @@ void dezprimeiros(){
                 printf("\n=============================================");
 
                 printf("\n Digite seu nome: ");
-                scanf("%s",&nome);
+                scanf("%s", nome);
 
                 printf("\nQual a sua idade?");
                 scanf("%d", &idade);
@@ -209,17 +216,18 @@ void dezprimeiros(){
                 idadefutura = restodeano + idade;
 
 
-            if (idade >= 18){
+                if (idade >= 18){
                     printf("Voce e maior de idade\n");
-                    printf("Sua idade e %d\n",idade);
-                    printf("%s,em %d,voce tera %d anos\n",nome,ano,idadefutura);
+                    printf("\nSua idade e %d\n",idade);
+                    printf("%s,em %d,voce tera %d anos\n",nome,ano,idadefutura); 
                 }else{
                     printf("Voce e menor de idade\n");
-                    printf("Sua idade e %d\n",idade);
-                    printf("%s,em %d,voce tera %d anos\n",nome,ano,idadefutura);
-                }
+                    printf("\nSua idade e %d\n",idade);
+                    printf("%s,em %d,voce tera %d anos\n",nome,ano,idadefutura); 
+                }   
             break;}
             case 10: {
+                system("cls");
                 float pesoatual,pesoantigo,pesoumporcento,calculo;
 
                 printf("\n============================================="); 
@@ -237,12 +245,11 @@ void dezprimeiros(){
                     calculo = pesoatual - pesoantigo;
                     printf("\nVoce engordou %.1f kilos", calculo);
                     printf("\nVoce engordou %.1f porcento",pesoumporcento);
-
                 }else{
                     calculo = pesoantigo - pesoatual;
                     pesoumporcento = ((pesoantigo - pesoatual) / pesoantigo) * 100;
                     printf("\nVoce emagreceu %.1f kilos", calculo);
-                    printf("\nVoce emagreceu %.1f porcento",pesoumporcento);
+                    printf("\nVoce emagreceu %.1f porcento\n",pesoumporcento);
                 }
             break;}
             default:
@@ -252,18 +259,55 @@ void dezprimeiros(){
     }while(escolha != 11); 
 
 }
+void dezaovinte(){
+    int escolha;
+    do {
+        printf("=============================================\n");
+        printf("=============Atividades 11 a 20==============\n");
+        printf("=============================================\n");
 
-int main(int argc, char const *argv[])
-{
+        printf("Escolha Quais Atividades Voce Deseja Ver: \n");
+        printf("1-Atividade 11.\n");
+        printf("2-Atividade 12.\n");
+        printf("3-Atividade 13.\n");
+        printf("4-Atividade 14.\n");
+        printf("5-Atividade 15.\n");
+        printf("6-Atividade 16.\n");
+        printf("7-Atividade 17.\n");
+        printf("8-Atividade 18.\n");
+        printf("9-Atividade 19.\n");
+        printf("10-Atividade 20.\n");
+        printf("11-Voltar.\n");
+        printf("Escolha uma das opcoes.\n");
+        scanf("%d", &escolha);
+
+        switch(escolha){
+            case 1: {
+                system("cls");
+                int number, Result;
+                printf("Vamos fazer um calculo!!!");
+                printf("\nDigite um numero: ");
+                scanf("%d", &number);
+
+                Result= number+number;
+
+                printf("O resultado da soma desse numero e : %d", Result );
+
+            break;}
+        }
+
+    }while(escolha != 11);
+}
+int main(){
     int escolha;
     do{
         
 
-        printf("\n=============================================");
-        printf("\n============Lista 01 Refeita em C============");
-        printf("\n=============================================");
+        printf("=============================================\n");
+        printf("============Lista 01 Refeita em C============\n");
+        printf("=============================================\n");
 
-        printf("Escolha quais atividades voce deseja ver: ");
+        printf("Escolha quais atividades voce deseja ver: \n");
         printf("1-Da 1 a 10.\n");
         printf("2-Da 11 a 20.\n");
         printf("3-Da 21 a 30.\n");
