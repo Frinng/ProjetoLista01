@@ -378,9 +378,33 @@ void dezaovinte(){
                 }
             break;}
             case 6: {
+                system("cls");
+                int num, ter;
 
+                printf("\nVamos calcular a terceira parte do numero");
+                printf("\nDigite o numero:\n ");
+                scanf("%d", &num);
+                ter = num /3 ;
+                printf ("\n A terceira parte do numero e %d\n",ter);
+            break;}
+            case 7: {
+                system("cls");
+                double numero, base, resultado;
+
+                printf("Digite o numero: ");
+                scanf("%lf", &numero);
+
+                printf("Digite a base do logaritmo: ");
+                scanf("%lf", &base);
+
+                if (numero > 0 && base > 0 && base != 1) {
+                    resultado = log(numero) / log(base); // Mudança de base
+                    printf("Logaritmo de %.2f na base %.2f é: %.4f\n", numero, base, resultado);
+                } else {
+                    printf("Numero e base devem ser positivos e a base diferente de 1.\n");
+                }
             break;}    
-        }
+        }  
 
     }while(escolha != 11);
 }
