@@ -507,6 +507,33 @@ void dezaovinte(){
             }  
 }while(escolha != 11);
 }
+void vinteaotrinta(){
+    int escolha;
+    do {
+        printf("=============================================\n");
+        printf("=========As Dez primeiras atividades=========\n");
+        printf("=============================================\n");
+
+        printf("Escolha Quais Atividades Voce Deseja Ver: \n");
+        printf("1-Atividade 21.\n");
+        printf("2-Atividade 22.\n");
+        printf("3-Atividade 23.\n");
+        printf("4-Atividade 24.\n");
+        printf("5-Atividade 25.\n");
+        printf("6-Atividade 26.\n");
+        printf("7-Atividade 27.\n");
+        printf("8-Atividade 28.\n");
+        printf("9-Atividade 29.\n");
+        printf("10-Atividade 30.\n");
+        printf("11-Voltar.\n");
+        printf("Escolha uma das opcoes.\n");
+        scanf("%d", &escolha);
+
+        switch(escolha){
+
+        }
+    }while(escolha != 11);
+}
 int main(){
     int escolha;
     do{
